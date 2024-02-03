@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply h-full;
+    }
+    html {
+        @apply h-full;
+    }
+    #root{
+        @apply h-full
+    }
+    .button_outline{
+        @apply text-[#101237] px-2 py-1  box-content inline font-medium text-lg rounded-lg border-[2px] transition border-[#101237] bg-white hover:text-white hover:bg-[#101237]
+    }
+}

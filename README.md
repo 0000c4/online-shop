@@ -9,4 +9,4 @@
 #server:<br>
   &nbsp;cd server<br>
   &nbsp;npm install<br>
-  &nbsp;npm start<br>
+  &nbsp;node main.js<br>
